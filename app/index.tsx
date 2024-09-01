@@ -11,7 +11,7 @@ export default function Index() {
           Hello World!
         </Text>
         <Text
-          onPress={() => router.push("/OnBoardingScreen1")}
+          onPress={()=>router.push('/onBoardingScreen')}
           className="text-2xl"
         >
           Screen 1

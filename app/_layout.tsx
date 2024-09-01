@@ -21,9 +21,7 @@ export default function RootLayout() {
   return (
     <Stack screenOptions={{ headerShown: false }} initialRouteName="index">
       <Stack.Screen name="index" />
-      <Stack.Screen name="(onBoarding)/OnBoardingScreen1" />
-      <Stack.Screen name="(onBoarding)/OnBoardingScreen2" />
-      <Stack.Screen name="(onBoarding)/OnBoardingScreen3" />
+      <Stack.Screen name="(onBoarding)/onBoardingScreen" />
     </Stack>
   );
 }
